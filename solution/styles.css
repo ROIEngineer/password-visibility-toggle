@@ -22,3 +22,9 @@ body {
   width: 300px; /* Sets the width of the container */
   text-align: center; /* Horizontally centers inline content */
 } 
+
+.input-container {
+  display: flex; /* Turns all children to flex items */
+  align-items: center; /* Vertically centers the input and toggle element */
+  position: relative;
+}
