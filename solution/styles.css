@@ -1,0 +1,16 @@
+*,*::before,*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 2px solid red;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Sets the font for all content*/
+  display: flex; /* Activate Flexbox - Children become flex item */
+  justify-content: center; /* Centers horizontally along main axis */
+  align-items: center; /* Centers vertically along the cross axis */
+  height: 100vh; /* Sets the body height to fill the entire viewport */
+  margin: 0; 
+  background-color: #f4f4f4; /* Sets background color to white */
+}
