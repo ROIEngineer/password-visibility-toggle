@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 2px solid red;
 }
 
 body {
@@ -14,3 +13,12 @@ body {
   margin: 0; 
   background-color: #f4f4f4; /* Sets background color to white */
 }
+
+.container {
+  background-color: white; /* Sets the background color to white */
+  padding: 30px; /* Creates space inside the container content > space > edge */
+  border-radius: 8px; /* Curves the edges of the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Creates a shadow around container */
+  width: 300px; /* Sets the width of the container */
+  text-align: center; /* Horizontally centers inline content */
+} 
