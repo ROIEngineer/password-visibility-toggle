@@ -43,7 +43,7 @@ input {
   right: 10px;
   cursor: pointer; /* When mouse hovers over icon - pointer icon appears */
   font-size: 20px; /* Set font size */
-  color: #333; //
+  color: #333; 
 }
 
 label {
