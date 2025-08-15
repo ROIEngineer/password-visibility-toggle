@@ -37,3 +37,17 @@ input {
   border-radius: 5px; /* Rounds the edge around "Your Password" */
   font-size: 16px; /* Changes "Your Password" font-size */
 }
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer; /* When mouse hovers over icon - pointer icon appears */
+  font-size: 20px; /* Set font size */
+  color: #333; //
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px; /* Apply space under the label element */
+  display: block;
+}
