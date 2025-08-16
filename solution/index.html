@@ -10,29 +10,26 @@
     <label for="passes">Enter Password</label>
     <div class="input-container">
       <input id="passes" placeholder="Your Password" type="password" />
-      <span class="eye-icon" id="eye-icon">⚔</span>
+      <span class="eye-icon" id="eye-icon"> ✋</span>
     </div>
   </div>
 
   <script>
-    // Retrieve and initialize variables 
+    // Retrieve and declare variables 
     let input = document.getElementById("passes"); // Take user input from input element 
-    let btn = document.getElementById(btnss); // I dont know what this is 
+    let btn = document.getElementById("eye-icon"); // Hide/Show Toggle 
 
-    // Javascript Function
-    btn.addEventListener("click", function() {
+    // JavaScript Function
+    btn.addEventListener("click", function() { 
       if (input.type === "password") {
         input.type = "text";
-        btn.textContent = "Hide";
+        btn.textContent = " ✋";
       } 
       else {
         input.type = "password";
-        btn.textContent = "Show";
+        btn.textContent = " ✊";
       }
     })
-    
-
-
   </script>
 </body>
 </html>
